@@ -1,0 +1,85 @@
+:root {
+    --white: #ffffff;
+    --gap: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    font-family: "Orbitron", sans-serif;
+
+
+}
+
+
+h1 {
+    font-size: 6;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 5.5;
+}
+
+h3 {
+    font-size: 5;
+}
+
+h4 {
+    font-size: 4.5;
+}
+
+h5 {
+    font-size: 4;
+}
+
+h6 {
+    font-size: 3.5;
+}
+
+h7 {
+    font-size: 3;
+}
+
+.main-background {
+    background-image: url('/assets/img/background.svg');
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+}
+
+.white-background {
+    background-color: var(--white);
+}
+
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: var(--gap);
+
+}
+
+.section {
+    min-height: 100vh;
+}
